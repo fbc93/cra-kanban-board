@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/cra-kanban-board/static/js/main.8e2ff69b.js",
+    "index.html": "/cra-kanban-board/index.html",
+    "main.8e2ff69b.js.map": "/cra-kanban-board/static/js/main.8e2ff69b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8e2ff69b.js"
+  ]
+}
