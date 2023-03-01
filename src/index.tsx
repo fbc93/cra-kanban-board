@@ -4,7 +4,9 @@ import App from './App';
 import { ThemeProvider } from 'styled-components';
 import { darkTheme } from './theme';
 import { RecoilRoot } from 'recoil';
+import { RecoilEnv } from 'recoil';
 
+RecoilEnv.RECOIL_DUPLICATE_ATOM_KEY_CHECKING_ENABLED = false;
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
