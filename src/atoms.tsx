@@ -14,7 +14,6 @@ export const categoriesState = atom<string[]>({
   default: JSON.parse(localStorage.getItem("categories") ?? JSON.stringify(defaultCategories)),
 });
 
-
 //
 export interface ToDoInterface {
   text: string;
