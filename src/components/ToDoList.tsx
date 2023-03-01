@@ -90,6 +90,7 @@ function ToDoList() {
     window.location.reload();
   }
 
+
   useEffect(() => {
     localStorage.setItem("categories", JSON.stringify(categories));
   }, [categories]);
