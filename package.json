@@ -1,5 +1,6 @@
 {
-  "name": "cra-todo-list",
+  "homepage": "https://fbc93.github.io/cra-kanban-board",
+  "name": "cra-kanban-board",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +54,7 @@
     "@types/babel__core": "^7.20.0",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.26",
-    "@types/uuid": "^9.0.1"
+    "@types/uuid": "^9.0.1",
+    "gh-pages": "^5.0.0"
   }
 }
